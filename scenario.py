@@ -1,3 +1,6 @@
 class Scenario:
-    def __init__(self, type):
-        self.type = type
+    timeLimit = 5
+    type = 'orbit'
+
+    def __init__(self, title, *kwargs):
+        self.title = title
